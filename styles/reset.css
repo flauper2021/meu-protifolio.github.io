@@ -6,7 +6,7 @@
     box-sizing: border-box;
     vertical-align: baseline;
     list-style: none;
-    
+    text-decoration: none;
 }
 
 :root {
