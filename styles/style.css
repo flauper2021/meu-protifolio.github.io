@@ -3,10 +3,21 @@
 body {
     background-color: var(--primary-bg-color);
     font-family: 'Inter', 'Times New Roman', Times, serif;
+    color: var(--text_color); 
 }
 
 i {
     color: var(--icon-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .header {
@@ -89,6 +100,15 @@ i {
     text-transform: uppercase;    
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    padding-top: 10rem;
+}
+
 @media (min-width: 768px) {
     .nav--mobile {
         display: none;
@@ -96,7 +116,7 @@ i {
 
     .header {
         border-bottom: 1px solid var(--border-color);
-        position: fixed;
+        position:fixed;
         padding: 1rem 6rem;
         background-color: var(--primary-bg-color);
     }
