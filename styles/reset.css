@@ -42,7 +42,11 @@
 }
 
 html[data-theme='light'] .brand__logo {
-    filter: invert(80%);
+    filter: invert(80%);    
+}
+
+html[data-theme='light'] .skills__logo {
+    filter:invert(80%);
 }
 
 :visited {
