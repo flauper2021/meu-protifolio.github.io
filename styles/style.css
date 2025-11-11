@@ -32,6 +32,11 @@ h1 {
     font-weight: 200; 
 }
 
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
 h1, h2, h3 {
     font-family: 'league spartan', Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
@@ -228,7 +233,13 @@ main {
 }
 
 .skills__logo {
-    width: 2.4rem;    
+    height: 2.4rem;    
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 1rem;
 }
 
 
@@ -239,6 +250,16 @@ main {
         padding: 10rem 2.5rem;
         display: flex;
         text-align: center;
+    }
+
+    .main__content2 {
+        width: 100%;
+        height: 80%;
+    }
+
+    .main__content2 iframe {
+        width: 90%;
+        height: 80%;
     }
     
     .nav--mobile {
@@ -262,7 +283,7 @@ main {
     }
 
     .main {
-        padding: 1rem 6rem  6.25rem 6rem;
+        padding: 12rem 6rem 2rem;
     }
 
     .main__content1 {
@@ -273,6 +294,7 @@ main {
 
     .h1 {
         font-size: 4rem;
+        width: 80%;
     }
 
     .skills {
@@ -288,6 +310,10 @@ main {
 
     .main__content1 .btn {
         width: auto;
+    }
+
+    h1 {
+        font-size: 4.5rem;
     }
 
     .skills {
