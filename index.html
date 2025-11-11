@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
     <title>Mauricio Alejandro | Portfolio</title>
 </head>
 <body>
+    <!-- menu principal -->
     <header class="header">
         <nav class="header__nav">
             <ul class="menu menu--principal">
@@ -49,41 +50,93 @@
     
     <!-- Menu Mobile -->
     <nav class="nav--mobile">
-            <ul class="menu menu--mobile">
-                <li class="menu__item">
-                    <a class="menu__link active" href="#home">
-                        <i class="menu__icon bi bi-house-door"></i>
-                        <span class="menu__text">Home</span>
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+                    
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+                    
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+        
+            <li class="menu__item">
+                <a class="menu__link" href="#contato">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <div class="main__content1">
+            <h1><b>Soluções criativas &</b> desenvolvimento front-end</h1>
+            <p>Mauricio Alejandro Juica Arriagada, Uberaba-MG, Desenvolvedor Front-end.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-github"></i>
                     </a>
                 </li>
-                        
-                <li class="menu__item">
-                    <a class="menu__link" href="#projetos">
-                        <i class="menu__icon bi bi-window-stack"></i>
-                        <span class="menu__text">Projetos</span>
+                <li>
+                    <a class="menu__link" href="">
+                        <i  class="menu__icon bi bi-linkedin"></i>
                     </a>
                 </li>
-                        
-                <li class="menu__item">
-                    <a class="menu__link" href="#sobre">
-                        <i class="menu__icon bi bi-person"></i>
-                        <span class="menu__text">Sobre</span>
-                    </a>
-                </li>
-            
-                <li class="menu__item">
-                    <a class="menu__link" href="#contato">
-                        <i class="menu__icon bi bi-envelope"></i>
-                        <span class="menu__text">Contato</span>
+                <li>
+                    <a class="menu__link" href="">
+                        <i class="menu__icon bi bi-instagram"></i>
                     </a>
                 </li>
             </ul>
-        </nav>
-    <h1>Mauricio Alejandro</h1>
-    
+            <button class="btn btn--primary">
+                <span>ver projetos</span>
+                <i class="bi bi-arrow-down-right"></i>
+            </button>
+
+            <div class="main__content2">
+                <iframe width="1200" height="675" src="https://www.youtube.com/embed/1tjuhCdWPB4?si=UpRcbNkzZauI1DJn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </main>
+
+    <section class="skills">
+        <h2>Conhecimento das principais tecnologias do mercado</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img class ="skills__logo" src="./assets/tecnology/Angular.png" alt="logo do Angular">
+            </li>
+            <li class="skills__item">
+                <img class ="skills__logo" src="./assets/tecnology/TypeScript.png" alt="logo do TypeScript">
+            </li>
+            <li class="skills__item">
+                <img class ="skills__logo" src="./assets/tecnology/SASS.png" alt="logo do SASS">
+            </li>
+            <li class="skills__item">
+                <img class ="skills__logo" src="./assets/tecnology/Vector.png" alt="logo do Bootstrap">
+            </li>
+        </ul>
+    </section>
+
+        
     <footer>
         <p>®2025. Todos os direitos reservados. <a href="https://github.com/flauper2021" target="_blank">Desenvolvido por Mauricio Alejandro</a></p>
     </footer>
+    <script src="./engine/main.js" defer></script>
 </body>
 
 </html>
