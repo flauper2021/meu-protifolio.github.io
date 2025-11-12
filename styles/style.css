@@ -192,6 +192,12 @@ main {
     color: var(--primary-color);
 }
 
+.main__content2 background-image {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
 .main__content2 iframe {
     width: 100%;
     aspect-ratio: 16/9;
