@@ -61,7 +61,7 @@ O projeto foi desenvolvido para fins didáticos, com o objetivo de colocar em pr
   
 
 
-[Pagina](https://) Link para acessar a pagina demonstrativa no GitHub pages.  
+[Pagina]([https://](https://flauper2021.github.io/meu-protifolio.github.io/)) Link para acessar a pagina demonstrativa no GitHub pages.  
   
 [Pagina](https://meu-protifolio-github-io.vercel.app/) Link para acessar a pagina demonstrativa no Vercel.
 
