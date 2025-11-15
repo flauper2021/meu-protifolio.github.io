@@ -286,6 +286,7 @@ main {
 
 .card__buttons {
     display: flex;
+    margin-bottom: 2rem;
 }
 
 
@@ -386,6 +387,7 @@ main {
 }
 
 
+
 /* -- accordion styles -- */
 
 .accordion__header {
@@ -459,10 +461,38 @@ footer p {
 }
 
 
+/* -- contato styles -- */
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    gap: 1.5rem;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact .btn {
+    width: auto;
+}
+
+.contact .email {
+    text-transform: lowercase;
+}
+
+
 /* -- Media Queries acima de 768px -- */
 
 @media (min-width: 768px) {
-    main, .about {
+    main, .about, .contact {
         padding: 10rem 2.5rem;
         display: flex;        
     }
@@ -543,6 +573,12 @@ footer p {
         justify-content: center;
         align-items: center;
     }
+
+    .contact {
+        width: 100%;
+        padding: 6rem;
+    }
+    
 }
 
 
